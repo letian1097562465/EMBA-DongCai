@@ -19,6 +19,32 @@
 		18AB9A1618D176D00017BC6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB99FE18D176D00017BC6A /* UIKit.framework */; };
 		18AB9A1E18D176D00017BC6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18AB9A1C18D176D00017BC6A /* InfoPlist.strings */; };
 		18AB9A2018D176D00017BC6A /* EMBA_DongCaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A1F18D176D00017BC6A /* EMBA_DongCaiTests.m */; };
+		18AB9A3218D178ED0017BC6A /* WYIOSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A3118D178ED0017BC6A /* WYIOSData.m */; };
+		18AB9A3518D179050017BC6A /* WYIOSEData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A3418D179050017BC6A /* WYIOSEData.m */; };
+		18AB9A3918D1797B0017BC6A /* WYWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A3718D1797B0017BC6A /* WYWelcomeViewController.m */; };
+		18AB9A3A18D1797B0017BC6A /* WYWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AB9A3818D1797B0017BC6A /* WYWelcomeViewController.xib */; };
+		18AB9A3E18D17A270017BC6A /* WYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A3C18D17A270017BC6A /* WYCustomTabbar.m */; };
+		18AB9A4318D17A7B0017BC6A /* WYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A4118D17A7B0017BC6A /* WYMenuViewController.m */; };
+		18AB9A4418D17A7B0017BC6A /* WYMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AB9A4218D17A7B0017BC6A /* WYMenuViewController.xib */; };
+		18AB9A4818D17AA90017BC6A /* WYSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A4618D17AA90017BC6A /* WYSignUpViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A4918D17AA90017BC6A /* WYSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AB9A4718D17AA90017BC6A /* WYSignUpViewController.xib */; };
+		18AB9A4D18D17AC10017BC6A /* WYMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A4B18D17AC10017BC6A /* WYMoreViewController.m */; };
+		18AB9A4E18D17AC10017BC6A /* WYMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AB9A4C18D17AC10017BC6A /* WYMoreViewController.xib */; };
+		18AB9A5118D1AE210017BC6A /* modelMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A5018D1AE210017BC6A /* modelMethods.m */; };
+		18AB9A6C18D1AFF30017BC6A /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A5418D1AFF30017BC6A /* NSObject+SBJson.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A6D18D1AFF30017BC6A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A5718D1AFF30017BC6A /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A6E18D1AFF30017BC6A /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A5918D1AFF30017BC6A /* SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A6F18D1AFF30017BC6A /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A5B18D1AFF30017BC6A /* SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7018D1AFF30017BC6A /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A5D18D1AFF30017BC6A /* SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7118D1AFF30017BC6A /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A5F18D1AFF30017BC6A /* SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7218D1AFF30017BC6A /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A6118D1AFF30017BC6A /* SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7318D1AFF30017BC6A /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A6318D1AFF30017BC6A /* SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7418D1AFF30017BC6A /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A6518D1AFF30017BC6A /* SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7518D1AFF30017BC6A /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A6718D1AFF30017BC6A /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7618D1AFF30017BC6A /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A6918D1AFF30017BC6A /* SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7718D1AFF30017BC6A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A6B18D1AFF30017BC6A /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AB9A7A18D1B7A00017BC6A /* welcomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB9A7918D1B7A00017BC6A /* welcomeCell.m */; };
+		18AB9A7C18D1B7B40017BC6A /* welcomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AB9A7B18D1B7B40017BC6A /* welcomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +74,54 @@
 		18AB9A1B18D176D00017BC6A /* EMBA-DongCaiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMBA-DongCaiTests-Info.plist"; sourceTree = "<group>"; };
 		18AB9A1D18D176D00017BC6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18AB9A1F18D176D00017BC6A /* EMBA_DongCaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMBA_DongCaiTests.m; sourceTree = "<group>"; };
+		18AB9A3018D178ED0017BC6A /* WYIOSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYIOSData.h; sourceTree = "<group>"; };
+		18AB9A3118D178ED0017BC6A /* WYIOSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYIOSData.m; sourceTree = "<group>"; };
+		18AB9A3318D179050017BC6A /* WYIOSEData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYIOSEData.h; sourceTree = "<group>"; };
+		18AB9A3418D179050017BC6A /* WYIOSEData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYIOSEData.m; sourceTree = "<group>"; };
+		18AB9A3618D1797B0017BC6A /* WYWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWelcomeViewController.h; sourceTree = "<group>"; };
+		18AB9A3718D1797B0017BC6A /* WYWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWelcomeViewController.m; sourceTree = "<group>"; };
+		18AB9A3818D1797B0017BC6A /* WYWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYWelcomeViewController.xib; sourceTree = "<group>"; };
+		18AB9A3B18D17A270017BC6A /* WYCustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCustomTabbar.h; sourceTree = "<group>"; };
+		18AB9A3C18D17A270017BC6A /* WYCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCustomTabbar.m; sourceTree = "<group>"; };
+		18AB9A4018D17A7B0017BC6A /* WYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMenuViewController.h; sourceTree = "<group>"; };
+		18AB9A4118D17A7B0017BC6A /* WYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMenuViewController.m; sourceTree = "<group>"; };
+		18AB9A4218D17A7B0017BC6A /* WYMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYMenuViewController.xib; sourceTree = "<group>"; };
+		18AB9A4518D17AA90017BC6A /* WYSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSignUpViewController.h; sourceTree = "<group>"; };
+		18AB9A4618D17AA90017BC6A /* WYSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSignUpViewController.m; sourceTree = "<group>"; };
+		18AB9A4718D17AA90017BC6A /* WYSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYSignUpViewController.xib; sourceTree = "<group>"; };
+		18AB9A4A18D17AC10017BC6A /* WYMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMoreViewController.h; sourceTree = "<group>"; };
+		18AB9A4B18D17AC10017BC6A /* WYMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMoreViewController.m; sourceTree = "<group>"; };
+		18AB9A4C18D17AC10017BC6A /* WYMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYMoreViewController.xib; sourceTree = "<group>"; };
+		18AB9A4F18D1AE210017BC6A /* modelMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelMethods.h; sourceTree = "<group>"; };
+		18AB9A5018D1AE210017BC6A /* modelMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modelMethods.m; sourceTree = "<group>"; };
+		18AB9A5318D1AFF30017BC6A /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		18AB9A5418D1AFF30017BC6A /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		18AB9A5518D1AFF30017BC6A /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		18AB9A5618D1AFF30017BC6A /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		18AB9A5718D1AFF30017BC6A /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		18AB9A5818D1AFF30017BC6A /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		18AB9A5918D1AFF30017BC6A /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		18AB9A5A18D1AFF30017BC6A /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		18AB9A5B18D1AFF30017BC6A /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		18AB9A5C18D1AFF30017BC6A /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		18AB9A5D18D1AFF30017BC6A /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		18AB9A5E18D1AFF30017BC6A /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		18AB9A5F18D1AFF30017BC6A /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		18AB9A6018D1AFF30017BC6A /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		18AB9A6118D1AFF30017BC6A /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		18AB9A6218D1AFF30017BC6A /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		18AB9A6318D1AFF30017BC6A /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		18AB9A6418D1AFF30017BC6A /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		18AB9A6518D1AFF30017BC6A /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		18AB9A6618D1AFF30017BC6A /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		18AB9A6718D1AFF30017BC6A /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		18AB9A6818D1AFF30017BC6A /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		18AB9A6918D1AFF30017BC6A /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		18AB9A6A18D1AFF30017BC6A /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		18AB9A6B18D1AFF30017BC6A /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		18AB9A7818D1B7A00017BC6A /* welcomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = welcomeCell.h; sourceTree = "<group>"; };
+		18AB9A7918D1B7A00017BC6A /* welcomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = welcomeCell.m; sourceTree = "<group>"; };
+		18AB9A7B18D1B7B40017BC6A /* welcomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = welcomeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +181,9 @@
 		18AB9A0018D176D00017BC6A /* EMBA-DongCai */ = {
 			isa = PBXGroup;
 			children = (
-				18AB9A0918D176D00017BC6A /* WYAppDelegate.h */,
-				18AB9A0A18D176D00017BC6A /* WYAppDelegate.m */,
+				18AB9A5218D1AFF30017BC6A /* SBJson */,
+				18AB9A2C18D176FE0017BC6A /* Classes */,
+				18AB9A2F18D177790017BC6A /* NSObject */,
 				18AB9A0C18D176D00017BC6A /* Images.xcassets */,
 				18AB9A0118D176D00017BC6A /* Supporting Files */,
 			);
@@ -142,6 +217,117 @@
 				18AB9A1C18D176D00017BC6A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AB9A2918D176F70017BC6A /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A4018D17A7B0017BC6A /* WYMenuViewController.h */,
+				18AB9A4118D17A7B0017BC6A /* WYMenuViewController.m */,
+				18AB9A4218D17A7B0017BC6A /* WYMenuViewController.xib */,
+			);
+			name = MenuView;
+			sourceTree = "<group>";
+		};
+		18AB9A2A18D176FA0017BC6A /* TabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A3B18D17A270017BC6A /* WYCustomTabbar.h */,
+				18AB9A3C18D17A270017BC6A /* WYCustomTabbar.m */,
+			);
+			name = TabbarView;
+			sourceTree = "<group>";
+		};
+		18AB9A2B18D176FC0017BC6A /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A3618D1797B0017BC6A /* WYWelcomeViewController.h */,
+				18AB9A3718D1797B0017BC6A /* WYWelcomeViewController.m */,
+				18AB9A3818D1797B0017BC6A /* WYWelcomeViewController.xib */,
+				18AB9A7818D1B7A00017BC6A /* welcomeCell.h */,
+				18AB9A7918D1B7A00017BC6A /* welcomeCell.m */,
+				18AB9A7B18D1B7B40017BC6A /* welcomeCell.xib */,
+			);
+			name = WelcomeView;
+			sourceTree = "<group>";
+		};
+		18AB9A2C18D176FE0017BC6A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A0918D176D00017BC6A /* WYAppDelegate.h */,
+				18AB9A0A18D176D00017BC6A /* WYAppDelegate.m */,
+				18AB9A2B18D176FC0017BC6A /* WelcomeView */,
+				18AB9A2A18D176FA0017BC6A /* TabbarView */,
+				18AB9A2918D176F70017BC6A /* MenuView */,
+				18AB9A2E18D1774A0017BC6A /* SignUpView */,
+				18AB9A2D18D177450017BC6A /* MoreView */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		18AB9A2D18D177450017BC6A /* MoreView */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A4A18D17AC10017BC6A /* WYMoreViewController.h */,
+				18AB9A4B18D17AC10017BC6A /* WYMoreViewController.m */,
+				18AB9A4C18D17AC10017BC6A /* WYMoreViewController.xib */,
+			);
+			name = MoreView;
+			sourceTree = "<group>";
+		};
+		18AB9A2E18D1774A0017BC6A /* SignUpView */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A4518D17AA90017BC6A /* WYSignUpViewController.h */,
+				18AB9A4618D17AA90017BC6A /* WYSignUpViewController.m */,
+				18AB9A4718D17AA90017BC6A /* WYSignUpViewController.xib */,
+			);
+			name = SignUpView;
+			sourceTree = "<group>";
+		};
+		18AB9A2F18D177790017BC6A /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A3018D178ED0017BC6A /* WYIOSData.h */,
+				18AB9A3118D178ED0017BC6A /* WYIOSData.m */,
+				18AB9A3318D179050017BC6A /* WYIOSEData.h */,
+				18AB9A3418D179050017BC6A /* WYIOSEData.m */,
+				18AB9A4F18D1AE210017BC6A /* modelMethods.h */,
+				18AB9A5018D1AE210017BC6A /* modelMethods.m */,
+			);
+			name = NSObject;
+			sourceTree = "<group>";
+		};
+		18AB9A5218D1AFF30017BC6A /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				18AB9A5318D1AFF30017BC6A /* NSObject+SBJson.h */,
+				18AB9A5418D1AFF30017BC6A /* NSObject+SBJson.m */,
+				18AB9A5518D1AFF30017BC6A /* SBJson.h */,
+				18AB9A5618D1AFF30017BC6A /* SBJsonParser.h */,
+				18AB9A5718D1AFF30017BC6A /* SBJsonParser.m */,
+				18AB9A5818D1AFF30017BC6A /* SBJsonStreamParser.h */,
+				18AB9A5918D1AFF30017BC6A /* SBJsonStreamParser.m */,
+				18AB9A5A18D1AFF30017BC6A /* SBJsonStreamParserAccumulator.h */,
+				18AB9A5B18D1AFF30017BC6A /* SBJsonStreamParserAccumulator.m */,
+				18AB9A5C18D1AFF30017BC6A /* SBJsonStreamParserAdapter.h */,
+				18AB9A5D18D1AFF30017BC6A /* SBJsonStreamParserAdapter.m */,
+				18AB9A5E18D1AFF30017BC6A /* SBJsonStreamParserState.h */,
+				18AB9A5F18D1AFF30017BC6A /* SBJsonStreamParserState.m */,
+				18AB9A6018D1AFF30017BC6A /* SBJsonStreamWriter.h */,
+				18AB9A6118D1AFF30017BC6A /* SBJsonStreamWriter.m */,
+				18AB9A6218D1AFF30017BC6A /* SBJsonStreamWriterAccumulator.h */,
+				18AB9A6318D1AFF30017BC6A /* SBJsonStreamWriterAccumulator.m */,
+				18AB9A6418D1AFF30017BC6A /* SBJsonStreamWriterState.h */,
+				18AB9A6518D1AFF30017BC6A /* SBJsonStreamWriterState.m */,
+				18AB9A6618D1AFF30017BC6A /* SBJsonTokeniser.h */,
+				18AB9A6718D1AFF30017BC6A /* SBJsonTokeniser.m */,
+				18AB9A6818D1AFF30017BC6A /* SBJsonUTF8Stream.h */,
+				18AB9A6918D1AFF30017BC6A /* SBJsonUTF8Stream.m */,
+				18AB9A6A18D1AFF30017BC6A /* SBJsonWriter.h */,
+				18AB9A6B18D1AFF30017BC6A /* SBJsonWriter.m */,
+			);
+			path = SBJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +406,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AB9A3A18D1797B0017BC6A /* WYWelcomeViewController.xib in Resources */,
+				18AB9A4E18D17AC10017BC6A /* WYMoreViewController.xib in Resources */,
+				18AB9A4918D17AA90017BC6A /* WYSignUpViewController.xib in Resources */,
+				18AB9A4418D17A7B0017BC6A /* WYMenuViewController.xib in Resources */,
 				18AB9A0518D176D00017BC6A /* InfoPlist.strings in Resources */,
+				18AB9A7C18D1B7B40017BC6A /* welcomeCell.xib in Resources */,
 				18AB9A0D18D176D00017BC6A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +431,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AB9A7418D1AFF30017BC6A /* SBJsonStreamWriterState.m in Sources */,
+				18AB9A6E18D1AFF30017BC6A /* SBJsonStreamParser.m in Sources */,
+				18AB9A4818D17AA90017BC6A /* WYSignUpViewController.m in Sources */,
+				18AB9A6C18D1AFF30017BC6A /* NSObject+SBJson.m in Sources */,
+				18AB9A3918D1797B0017BC6A /* WYWelcomeViewController.m in Sources */,
 				18AB9A0B18D176D00017BC6A /* WYAppDelegate.m in Sources */,
+				18AB9A4318D17A7B0017BC6A /* WYMenuViewController.m in Sources */,
+				18AB9A7A18D1B7A00017BC6A /* welcomeCell.m in Sources */,
+				18AB9A7218D1AFF30017BC6A /* SBJsonStreamWriter.m in Sources */,
+				18AB9A4D18D17AC10017BC6A /* WYMoreViewController.m in Sources */,
+				18AB9A7318D1AFF30017BC6A /* SBJsonStreamWriterAccumulator.m in Sources */,
+				18AB9A3518D179050017BC6A /* WYIOSEData.m in Sources */,
+				18AB9A7618D1AFF30017BC6A /* SBJsonUTF8Stream.m in Sources */,
+				18AB9A7518D1AFF30017BC6A /* SBJsonTokeniser.m in Sources */,
+				18AB9A7718D1AFF30017BC6A /* SBJsonWriter.m in Sources */,
+				18AB9A3218D178ED0017BC6A /* WYIOSData.m in Sources */,
+				18AB9A3E18D17A270017BC6A /* WYCustomTabbar.m in Sources */,
+				18AB9A6D18D1AFF30017BC6A /* SBJsonParser.m in Sources */,
+				18AB9A7018D1AFF30017BC6A /* SBJsonStreamParserAdapter.m in Sources */,
+				18AB9A5118D1AE210017BC6A /* modelMethods.m in Sources */,
+				18AB9A7118D1AFF30017BC6A /* SBJsonStreamParserState.m in Sources */,
+				18AB9A6F18D1AFF30017BC6A /* SBJsonStreamParserAccumulator.m in Sources */,
 				18AB9A0718D176D00017BC6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +575,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMBA-DongCai/EMBA-DongCai-Prefix.pch";
 				INFOPLIST_FILE = "EMBA-DongCai/EMBA-DongCai-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +589,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMBA-DongCai/EMBA-DongCai-Prefix.pch";
 				INFOPLIST_FILE = "EMBA-DongCai/EMBA-DongCai-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

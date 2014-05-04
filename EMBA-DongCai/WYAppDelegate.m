@@ -7,14 +7,24 @@
 //
 
 #import "WYAppDelegate.h"
+#import "WYWelcomeViewController.h"
 
 @implementation WYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    UIViewController *viewController = nil;
+    
+    viewController = [[WYWelcomeViewController alloc]initWithNibName:@"WYWelcomeViewController" bundle:nil];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = viewController;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

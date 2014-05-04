@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3D2DE667-C2C4-44BD-8114-979BC70AAC7D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EMBA-DongCai</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F3535FB5-FFB4-474F-9800-287178F849E0</key>
+		<string>https://github.com/letian1097562465/EMBA-DongCai.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EMBA-DongCai.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F3535FB5-FFB4-474F-9800-287178F849E0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/letian1097562465/EMBA-DongCai.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F3535FB5-FFB4-474F-9800-287178F849E0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3535FB5-FFB4-474F-9800-287178F849E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EMBA-DongCai</string>
+		</dict>
+	</array>
+</dict>
+</plist>
